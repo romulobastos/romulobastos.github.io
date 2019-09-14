@@ -1,1 +1,4 @@
 /_layout
+app/.cache
+app/node_modules
+app/public
