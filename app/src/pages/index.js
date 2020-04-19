@@ -1,13 +1,26 @@
-import React from "react"
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/Layout';
+import SEO from '../components/seo';
+import PostItem from '../components/PostItem';
 
 const IndexPage = () => (
 	<Layout>
-		<SEO title="Home" />
-		<h1>Home</h1>
+		<SEO title='Home' />
+		<PostItem
+			slug='/about/'
+			background='turquoise'
+			category='misc'
+			date='19de Abril de 2020'
+			timeToRead='5'
+			title='Diga não ao Medium: tenha sua própria plataforma'
+			description='Algumas razões para você ter sua própria plataforma ao invés de soluções como o Medium'
+		/>
+		<PostItem />
+		<PostItem />
+		<PostItem />
 	</Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
