@@ -12,7 +12,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/assets/img`,
-        name: `uploads`,
+        name: "uploads",
       },
     },
     {
@@ -34,7 +34,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-relative-images`,
+            resolve: `gatsby-remark-relative-images-v2`,
             options: {
               name: `uploads`,
             },
@@ -63,8 +63,5 @@ module.exports = {
         icon: `src/images/favicon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
