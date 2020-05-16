@@ -25,9 +25,9 @@ export const SearchWrapper = styled.section`
   }
   body#grid & {
     .ais-Hits-list {
-      background-color: #000;
-      border-bottom: 1px solid red;
-      border-top: 1px solid blue;
+      background-color: var(--borders);
+      border-bottom: 1px solid var(--borders);
+      border-top: 1px solid var(--borders);
       display: grid;
       grid-area: card;
       grid-gap: 1px;
@@ -35,7 +35,7 @@ export const SearchWrapper = styled.section`
       margin-top: 2rem;
     }
     .ais-Hits-item {
-      background-color: red;
+      background-color: var(--background);
     }
   }
   .ais-SearchBox-input {
