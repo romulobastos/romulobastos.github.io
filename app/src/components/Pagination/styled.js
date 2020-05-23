@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const PaginationWrapper = styled.section`
   align-items: center;
@@ -7,6 +8,11 @@ export const PaginationWrapper = styled.section`
   display: flex;
   padding: 1.5rem 3rem;
   justify-content: space-between;
+
+  ${media.lessThan("large")`
+    padding: 1.5rem 1rem 5rem;
+    font-size: 0.85rem;
+  `}
 
   div {
     flex-grow: 1;

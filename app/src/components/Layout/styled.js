@@ -22,5 +22,6 @@ export const LayoutMain = styled.main`
   ${media.lessThan("large")`
     padding-left: 0;
     padding-right: 0;
+    padding-top: 4rem;
   `}
 `

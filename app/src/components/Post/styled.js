@@ -1,10 +1,15 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
+
+  ${media.lessThan("large")`
+    padding: 3rem 0 0
+  `}
 `
 
 export const PostTitle = styled.h1`
@@ -12,24 +17,42 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
+
+  ${media.lessThan("large")`
+    padding: 0 1rem;
+    font-size: 2.6rem;
+  `}
 `
 
 export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
+
+  ${media.lessThan("large")`
+    padding: 0 1rem;
+    font-size: 1.6rem;
+  `}
 `
 
 export const PostDate = styled.p`
   font-size: 1.1rem;
   font-weight: 100;
   padding: 0 1.4rem;
+
+  ${media.lessThan("large")`
+    padding: 0 1rem;
+  `}
 `
 
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem;
+
+  ${media.lessThan("large")`
+    padding: 0 0rem;
+  `}
 
   p,
   h1,
@@ -47,6 +70,10 @@ export const MainContent = styled.section`
     line-height: 1.7;
     letter-spacing: 0.069rem;
     padding: 0 1.4rem;
+
+    ${media.lessThan("large")`
+      padding: 0 1rem;
+    `}
   }
 
   p {
@@ -79,6 +106,24 @@ export const MainContent = styled.section`
   h5 {
     font-size: 1.2rem;
   }
+
+  ${media.lessThan("large")`
+    h1 {
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+    h5 {
+      font-size: 1rem;
+    }
+  `}
 
   strong {
     font-weight: 700;
@@ -115,6 +160,10 @@ export const MainContent = styled.section`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
+
+    ${media.lessThan("large")`
+      padding: 0 1rem;
+    `}
   }
 
   blockquote {
@@ -156,6 +205,10 @@ export const MainContent = styled.section`
 
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
+
+    ${media.lessThan("large")`
+      padding: 0 1rem;
+    `}
   }
 
   .instagram-media {
