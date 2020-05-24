@@ -2,4 +2,4 @@
 
 Personal website made with GatsbyJS.
 
-![Project GIF](/app/static/presentation/romulobastos-gatsbyjs-blog.gif)
+![Preview Project](/app/static/presentation/mobile-preview.gif)
