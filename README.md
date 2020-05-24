@@ -6,15 +6,11 @@ Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge s
 
 ---
 
-<center>
-
-## Mobile Preview 👀
+## 👀 Mobile Preview
 
 ![Project Preview](/app/static/presentation/mobile-preview.gif)
 
-</center>
-
-## Stack 💎
+## 💎 Stack
 
 -   GatsbyJs (based on React)
 -   Algolia Search
@@ -22,7 +18,7 @@ Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge s
 -   Styled Components
 -   Netlify CMS
 
-## Is it in production? 🌐
+## 🌐 Is it in production?
 
 Unfortunately not. It's a working in progress.
-Maybe you want to take a look in my [current website (romulobastos.com.br)](https://romulobastos.com.br/)
+Maybe you want to take a look in my [current website](https://romulobastos.com.br/).
