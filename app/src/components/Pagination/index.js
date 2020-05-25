@@ -1,39 +1,59 @@
-import React from 'react';
-import propTypes from 'prop-types';
-import { Link } from 'gatsby';
+import React from "react"
+import propTypes from "prop-types"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import * as S from './styled';
+import * as S from "./styled"
 
 const Pagination = ({
-	isFirst,
-	isLast,
-	currentPage,
-	numPages,
-	prevPage,
-	nextPage,
+  isFirst,
+  isLast,
+  currentPage,
+  numPages,
+  prevPage,
+  nextPage,
 }) => (
-	<S.PaginationWrapper>
-		<div className='prev'>
-			{!isFirst && <Link to={prevPage}>← página anterior</Link>}
-		</div>
-		<div className='curr'>
-			<p>
-				{currentPage} de {numPages}
-			</p>
-		</div>
-		<div className='next'>
-			{!isLast && <Link to={nextPage}>próxima página →</Link>}
-		</div>
-	</S.PaginationWrapper>
-);
+  <S.PaginationWrapper>
+    <div className="prev">
+      {!isFirst && (
+        <AniLink
+          cover
+          direction="left"
+          bg="#16202c"
+          duration={0.6}
+          to={prevPage}
+        >
+          ← página anterior
+        </AniLink>
+      )}
+    </div>
+    <div className="curr">
+      <p>
+        {currentPage} de {numPages}
+      </p>
+    </div>
+    <div className="next">
+      {!isLast && (
+        <AniLink
+          cover
+          direction="right"
+          bg="#16202c"
+          duration={0.6}
+          to={nextPage}
+        >
+          próxima página →
+        </AniLink>
+      )}
+    </div>
+  </S.PaginationWrapper>
+)
 
 Pagination.propTypes = {
-	isFirst: propTypes.bool.isRequired,
-	isLast: propTypes.bool.isRequired,
-	currentPage: propTypes.number.isRequired,
-	numPages: propTypes.number.isRequired,
-	prevPage: propTypes.string,
-	nextPage: propTypes.string,
-};
+  isFirst: propTypes.bool.isRequired,
+  isLast: propTypes.bool.isRequired,
+  currentPage: propTypes.number.isRequired,
+  numPages: propTypes.number.isRequired,
+  prevPage: propTypes.string,
+  nextPage: propTypes.string,
+}
 
-export default Pagination;
+export default Pagination
