@@ -6,9 +6,9 @@ Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge s
 
 ---
 
-## 👀 Mobile Preview
-
-![Project Preview](/app/static/presentation/mobile-preview.gif)
+<p align="center">
+	<img src="app/static/presentation/mobile-preview.gif" alt="Project Preview" />
+</p>
 
 ## 💎 Stack
 
