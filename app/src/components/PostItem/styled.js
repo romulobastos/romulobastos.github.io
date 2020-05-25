@@ -44,6 +44,7 @@ export const PostItemTag = styled.div`
   border-radius: 50%;
   color: var(--white);
   display: flex;
+  margin-right: 1rem;
   font-size: 1.3rem;
   font-weight: 700;
   justify-content: center;
@@ -60,6 +61,7 @@ export const PostItemTag = styled.div`
     min-width: auto;
     min-height: auto;
     padding: 5px;
+    margin-right: 0;
     margin-bottom: .8rem;
     font-size: 1rem;
   `}
