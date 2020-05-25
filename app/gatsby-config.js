@@ -8,6 +8,7 @@ module.exports = {
     position: `Front-end developer`,
     description: `Portfolio page by Rômulo Bastos`,
     author: `@romulobastos`,
+    siteUrl: `https://johndoe.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
