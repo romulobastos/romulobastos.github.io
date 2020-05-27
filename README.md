@@ -4,6 +4,8 @@ Personal website developed with [GatsbyJS](https://www.gatsbyjs.org/).
 
 Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge shared in your classes.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d8420eef-7219-4cff-a4d8-a79cf5d44dac/deploy-status)](https://app.netlify.com/sites/romulobastos-blog/deploys)
+
 ---
 
 <p align="center">
