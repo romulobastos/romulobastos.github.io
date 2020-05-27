@@ -22,5 +22,6 @@ Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge s
 
 ## 🌐 Is it in production?
 
-Unfortunately not. It's a working in progress.
+This project is a work in progress and can be seen at [romulo.netlify.app](https://romulo.netlify.app).
+
 Maybe you want to take a look in my [current website](https://romulobastos.com.br/).
