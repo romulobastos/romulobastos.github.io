@@ -6,9 +6,10 @@ const About = () => (
   <S.AboutWrapper>
     <S.AboutTitle>About me!</S.AboutTitle>
     <S.AboutText>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt omnis nisi
-      aut eius sed, quidem quia nihil. Fugit eos eum hic ipsa libero non,
-      voluptates quis repellat mollitia eligendi qui?
+      My name is Rômulo Bastos, I'm front-end developer and digital designer
+      since 2009 and I am always trying to learn something new. I love to work
+      in user experience, think about their feelings, emotions and desires to
+      create design pieces that easily make sense to them.
     </S.AboutText>
   </S.AboutWrapper>
 )
