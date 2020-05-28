@@ -1,6 +1,6 @@
-# Rômulo Bastos
+# Gatsby Course
 
-Personal website developed with [GatsbyJS](https://www.gatsbyjs.org/).
+Gatsby - Crie um site PWA com React, GraphQL e Netlify CMS
 
 Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge shared in your classes.
 
@@ -15,13 +15,14 @@ Thanks [Willian Justen](https://willianjusten.com.br/) for the great knowledge s
 ## 💎 Stack
 
 -   GatsbyJs (based on React)
+-   GraphQL
 -   Algolia Search
--   Posts writen in Markdown
+-   Markdown Posts
 -   Styled Components
 -   Netlify CMS
 
 ## 🌐 Is it in production?
 
-This project is a work in progress and can be seen at [romulo.netlify.app](https://romulo.netlify.app).
+This project can be seen at [gatsby-romulo.netlify.app](https://gatsby-romulo.netlify.app).
 
-Maybe you want to take a look in my [current website](https://romulobastos.com.br/).
+**by** • [Rômulo](https://romulobastos.com.br)
