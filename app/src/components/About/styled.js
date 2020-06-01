@@ -8,6 +8,12 @@ export const AboutWrapper = styled.section`
   max-width: 70rem;
   margin: 0 auto;
   padding: 5rem;
+  text-align: left;
+
+  a {
+    font-size: inherit;
+    color: var(--highlight);
+  }
 `
 export const AboutTitle = styled.h1`
   font-size: 4rem;
@@ -20,5 +26,6 @@ export const AboutText = styled.p`
   font-size: 1.25rem;
   line-height: 1.7;
   letter-spacing: 0.069rem;
-  margin: 1rem auto;
+  margin: 1rem 0;
+  text-align: left;
 `
