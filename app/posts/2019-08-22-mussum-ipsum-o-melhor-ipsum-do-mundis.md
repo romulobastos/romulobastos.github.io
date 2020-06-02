@@ -1,14 +1,16 @@
 ---
 title: Mussum Ipsum o melhor ipsum do mundis
-description: 'Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi'
-date: '2019-08-22 08:51:23'
-category: jekyll
-background: '#B31917'
+description: Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi
+date: 2019-08-22T08:51:23.000Z
+thumbnail: assets/img/mussum.jpeg
+category: misc
+background: "#7AAB13"
 ---
-
-## Mussum Ipsum o melhor ipsum do mundis
+## \[Edited] Mussum Ipsum o melhor ipsum do mundis
 
 Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Paisis, filhis, espiritis santis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+
+![Foto Mussum](assets/img/mussum.jpeg "Mussum")
 
 A ordem dos tratores não altera o pão duris. Viva Forevis aptent taciti sociosqu ad litora torquent. Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus.
 
@@ -16,9 +18,9 @@ Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodu
 
 ### Nois bebis
 
--   Cevadis
--   Lupulis
--   Drinks
+* Cevadis
+* Lupulis
+* Drinks
 
 ### Uma frasis de impactis
 
