@@ -2,7 +2,7 @@ backend:
   name: github
   repo: romulobastos/gatsby-course
   branch: master
-  site_domain: https://gatsby-romulo.netlify.app/
+  site_domain: gatsby-romulo.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
